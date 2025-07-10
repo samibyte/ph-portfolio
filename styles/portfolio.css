@@ -16,15 +16,24 @@
 .dark-2 {
   color: #474747;
 }
+.dark-3 {
+  color: #757575;
+}
 
 .btn-primary {
   background-color: #FD6E0A;
   padding: 18px 35px;
   border-radius: 5px;
-  border-style: none;
+  border: none;
   color: white;
   font-size: 20px;
   font-weight: bold;
+}
+
+.header {
+  background-image: url(../images/developer.png), url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
 }
 
 /* nav styles */
@@ -50,4 +59,33 @@ nav ul li {
 nav li a {
   text-decoration: none;
 
+}
+
+/* banner styles */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 35px 0 200px;
+}
+
+.banner-content {
+  max-width: 585px;
+}
+
+.banner-greeting {
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.banner-title {
+  font-size: 85px;
+  font-weight: 800;
+}
+
+.banner-description {
+  font-size: 18px;
+}
+.banner-pfp {
+  width: 580px;
 }
