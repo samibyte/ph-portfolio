@@ -191,3 +191,27 @@ main section {
   margin: 30px auto;
   text-align: center;
 }
+
+
+/* fooeter styles */
+
+footer {
+  display: flex;
+  gap: 100px;
+  padding: 130px 230px;
+}
+
+.footer-col {
+  width: 50%;
+}
+
+footer input[type="text"], footer input[type="email"], footer input[type="textarea"] {
+  height: 64px;
+  border-radius: 5px;
+  background-color: white;
+  color: #474747;
+  display: block;
+  width: 100%;
+  margin: 24px 0;
+  border: none;
+}
